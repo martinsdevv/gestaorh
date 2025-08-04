@@ -39,37 +39,37 @@ GestaoRH/
 
 ## ⚙️ Configuração
 
-### 1. Variáveis de Ambiente
-
-Defina as variáveis corretamente no terminal antes de rodar:
-
-No Powershell:
-``` powershell
-$env:DEFAULT_CONNECTION="Server=(localdb)\MSSQLLocalDB;Database=SuaDatabase;Trusted_Connection=True;MultipleActiveResultSets=true"
-$env:JWT_KEY="sua-chave-secreta"
-```
-
-No CMD:
-``` cmd
-set DEFAULT_CONNECTION=Server=(localdb)\MSSQLLocalDB;Database=SuaDatabase;Trusted_Connection=True;MultipleActiveResultSets=true;
-set JWT_KEY=sua-chave-secreta
-```
-
-No Bash (Linux/macOS):
-``` bash
-export DEFAULT_CONNECTION="Server=(localdb)\MSSQLLocalDB;Database=SuaDatabase;Trusted_Connection=True;MultipleActiveResultSets=true;"
-export JWT_KEY="sua-chave-secreta"
-```
-
----
-
-### 2. Banco de Dados
+### 1. Banco de Dados
 
 Crie o banco de dados com base nas migrations:
 
 ```bash
 cd GestaoRH.Data
 dotnet ef database update
+```
+
+---
+
+### 2. Variáveis de Ambiente
+
+Defina as variáveis corretamente no terminal antes de rodar:
+
+No Powershell:
+``` powershell
+$env:DEFAULT_CONNECTION="Server=localhost;Database=GestaoRH;User Id=sa;Password=SuaSenha;"
+$env:JWT_KEY="sua-chave-secreta"
+```
+
+No CMD:
+``` cmd
+set DEFAULT_CONNECTION=Server=localhost;Database=GestaoRH;User Id=sa;Password=SuaSenha;
+set JWT_KEY=sua-chave-secreta
+```
+
+No Bash (Linux/macOS):
+``` bash
+export DEFAULT_CONNECTION="Server=localhost;Database=GestaoRH;User Id=sa;Password=SuaSenha;"
+export JWT_KEY="sua-chave-secreta"
 ```
 
 ---
