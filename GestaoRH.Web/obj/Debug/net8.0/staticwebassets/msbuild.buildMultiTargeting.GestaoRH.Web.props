@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GestaoRH.Web.props" />
+</Project>

@@ -1,0 +1,17 @@
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\bin\Debug\net8.0\GestaoRH.Data.deps.json
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\bin\Debug\net8.0\GestaoRH.Data.runtimeconfig.json
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\bin\Debug\net8.0\GestaoRH.Data.dll
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\bin\Debug\net8.0\GestaoRH.Data.pdb
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\bin\Debug\net8.0\GestaoRH.Core.dll
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\bin\Debug\net8.0\GestaoRH.Core.pdb
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.csproj.AssemblyReference.cache
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.AssemblyInfoInputs.cache
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.AssemblyInfo.cs
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.csproj.CoreCompileInputs.cache
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.725A6972.Up2Date
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.dll
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\refint\GestaoRH.Data.dll
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.pdb
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\GestaoRH.Data.genruntimeconfig.cache
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\obj\Debug\net8.0\ref\GestaoRH.Data.dll

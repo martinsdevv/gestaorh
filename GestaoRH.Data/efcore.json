@@ -1,0 +1,9 @@
+{
+  "DbContext": {
+    "Name": "AppDbContext",
+    "Namespace": "GestaoRH.Data",
+    "OutputPath": "Data/Migrations",
+    "StartupProject": "GestaoRH.Web.csproj",
+    "Project": "GestaoRH.Data.csproj"
+  }
+} 

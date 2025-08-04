@@ -1,0 +1,60 @@
+@page "{id:int}"
+@model GestaoRH.Web.Pages.Cargos.EditModel
+@{
+    ViewData["Title"] = "Editar Cargo";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h3 class="card-title mb-4 fw-bold text-primary">
+                        <i class="bi bi-pencil-square me-2"></i> Editar Cargo
+                    </h3>
+
+                    <form method="post">
+                        <input type="hidden" asp-for="Cargo.Id" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Nome</label>
+                            <input asp-for="Cargo.Nome" class="form-control" />
+                            <span asp-validation-for="Cargo.Nome" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Descrição</label>
+                            <input asp-for="Cargo.Descricao" class="form-control" />
+                            <span asp-validation-for="Cargo.Descricao" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Faixa Salarial Mínima</label>
+                            <input asp-for="Cargo.FaixaSalarialMin" class="form-control" />
+                            <span asp-validation-for="Cargo.FaixaSalarialMin" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Faixa Salarial Máxima</label>
+                            <input asp-for="Cargo.FaixaSalarialMax" class="form-control" />
+                            <span asp-validation-for="Cargo.FaixaSalarialMax" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-page="Index" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left"></i> Cancelar
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-check-circle"></i> Salvar Alterações
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+}

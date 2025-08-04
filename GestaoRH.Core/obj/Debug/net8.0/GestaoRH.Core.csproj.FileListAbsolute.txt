@@ -1,0 +1,12 @@
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\bin\Debug\net8.0\GestaoRH.Core.deps.json
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\bin\Debug\net8.0\GestaoRH.Core.dll
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\bin\Debug\net8.0\GestaoRH.Core.pdb
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\GestaoRH.Core.csproj.AssemblyReference.cache
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\GestaoRH.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\GestaoRH.Core.AssemblyInfoInputs.cache
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\GestaoRH.Core.AssemblyInfo.cs
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\GestaoRH.Core.csproj.CoreCompileInputs.cache
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\GestaoRH.Core.dll
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\refint\GestaoRH.Core.dll
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\GestaoRH.Core.pdb
+F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Core\obj\Debug\net8.0\ref\GestaoRH.Core.dll

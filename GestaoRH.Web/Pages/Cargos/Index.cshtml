@@ -1,0 +1,72 @@
+@page
+@model GestaoRH.Web.Pages.Cargos.IndexModel
+@{
+    ViewData["Title"] = "Cargos";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Cargos</h2>
+        <a class="btn btn-success" asp-page="/Cargos/Create">
+            <i class="bi bi-plus-circle me-1"></i> Novo Cargo
+        </a>
+    </div>
+
+    <form method="get" class="mb-4">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input asp-for="FiltroNome" class="form-control" placeholder="Buscar por nome..." />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <input asp-for="FiltroSalarioMin" class="form-control" placeholder="Salário Mínimo" />
+            </div>
+            <div class="col-md-3">
+                <input asp-for="FiltroSalarioMax" class="form-control" placeholder="Salário Máximo" />
+            </div>
+            <div class="col-md-3 d-flex gap-2">
+                <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+                <a asp-page="Index" class="btn btn-outline-secondary w-100">Limpar</a>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.Cargos.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var cargo in Model.Cargos)
+            {
+                <div class="col">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary fw-semibold">@cargo.Nome</h5>
+                            <p class="card-text text-muted">@cargo.Descricao</p>
+                            <p class="card-text">
+                                <strong>Faixa Salarial:</strong><br />
+                                @cargo.FaixaSalarialMin.ToString("C") - @cargo.FaixaSalarialMax.ToString("C")
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-end gap-2">
+                            <a class="btn btn-sm btn-outline-warning" asp-page="/Cargos/Edit" asp-route-id="@cargo.Id">
+                                <i class="bi bi-pencil"></i> Editar
+                            </a>
+                            <a class="btn btn-sm btn-outline-danger" asp-page="/Cargos/Delete" asp-route-id="@cargo.Id">
+                                <i class="bi bi-trash"></i> Excluir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info mt-4">Nenhum cargo encontrado com os filtros aplicados.</div>
+    }
+</div>
+
+@section Styles {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+}

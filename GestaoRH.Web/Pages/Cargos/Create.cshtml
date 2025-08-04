@@ -1,0 +1,94 @@
+@page
+@model GestaoRH.Web.Pages.Cargos.CreateModel
+@{
+    ViewData["Title"] = "Novo Cargo";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h3 class="card-title mb-4 fw-bold text-success">
+                        <i class="bi bi-plus-circle me-2"></i> Novo Cargo
+                    </h3>
+
+                    <form method="post">
+                        <div class="mb-3">
+                            <label class="form-label">Nome</label>
+                            <input asp-for="Cargo.Nome" class="form-control" />
+                            <span asp-validation-for="Cargo.Nome" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Descrição</label>
+                            <input asp-for="Cargo.Descricao" class="form-control" />
+                            <span asp-validation-for="Cargo.Descricao" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Faixa Salarial Mínima</label>
+                            <input asp-for="Cargo.FaixaSalarialMin" class="form-control salary-input" />
+                            <span asp-validation-for="Cargo.FaixaSalarialMin" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Faixa Salarial Máxima</label>
+                            <input asp-for="Cargo.FaixaSalarialMax" class="form-control salary-input" />
+                            <span asp-validation-for="Cargo.FaixaSalarialMax" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-page="Index" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left"></i> Cancelar
+                            </a>
+                            <button type="submit" class="btn btn-success">
+                                <i class="bi bi-check-circle"></i> Salvar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+}
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.salary-input').forEach(input => {
+            input.addEventListener('input', () => {
+                let value = input.value.replace(/\D/g, '');
+
+                if (value.length === 0) {
+                    input.value = '';
+                    return;
+                }
+
+                // Garante pelo menos 3 dígitos
+                while (value.length < 3) {
+                    value = '0' + value;
+                }
+
+                let intPart = value.slice(0, -2).replace(/^0+(?!$)/, ''); // remove zeros à esquerda
+                let decimalPart = value.slice(-2);
+
+                input.value = `${intPart},${decimalPart}`;
+            });
+
+            input.addEventListener('blur', () => {
+                if (input.value && !input.value.includes(',')) {
+                    input.value += ',00';
+                }
+            });
+
+            input.addEventListener('focus', () => {
+                input.select();
+            });
+        });
+    </script>
+}
+

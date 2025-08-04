@@ -1,0 +1,13 @@
+@page "{id:int}"
+@model GestaoRH.Web.Pages.Cargos.DeleteModel
+
+<h2>Excluir Cargo</h2>
+
+<div class="alert alert-danger">
+    Tem certeza que deseja excluir o cargo <strong>@Model.Cargo.Nome</strong>?
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Excluir</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>

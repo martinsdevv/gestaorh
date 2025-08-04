@@ -1,0 +1,12 @@
+@page "{id:int}"
+@model GestaoRH.Web.Pages.Funcionarios.DeleteModel
+
+<h1>Excluir Funcionário</h1>
+
+<p>Tem certeza que deseja excluir o funcionário <strong>@Model.Funcionario.Nome</strong>?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Funcionario.Id" />
+    <button type="submit" class="btn btn-danger">Excluir</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>
