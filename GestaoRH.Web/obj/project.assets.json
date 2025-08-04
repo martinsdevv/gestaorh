@@ -9584,11 +9584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Web\\GestaoRH.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Web\\GestaoRH.Web.csproj",
       "projectName": "GestaoRH.Web",
-      "projectPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Web\\GestaoRH.Web.csproj",
+      "projectPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Web\\GestaoRH.Web.csproj",
       "packagesPath": "C:\\Users\\Gabriel Martins\\.nuget\\packages\\",
-      "outputPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Web\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gabriel Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -9603,11 +9603,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj": {
-              "projectPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj"
+            "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj": {
+              "projectPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj"
             },
-            "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Data\\GestaoRH.Data.csproj": {
-              "projectPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Data\\GestaoRH.Data.csproj"
+            "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Data\\GestaoRH.Data.csproj": {
+              "projectPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Data\\GestaoRH.Data.csproj"
             }
           }
         }

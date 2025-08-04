@@ -9,83 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GestaoRH.Web
 build_property.RootNamespace = GestaoRH.Web
-build_property.ProjectDir = F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Web\
+build_property.ProjectDir = C:\Users\Gabriel Martins\Documents\testegestao\gestaorh\GestaoRH.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Web
+build_property.MSBuildProjectDirectory = C:\Users\Gabriel Martins\Documents\testegestao\gestaorh\GestaoRH.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Cargos/Create.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Cargos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZ29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Cargos/Delete.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Cargos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZ29zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Cargos/Edit.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Cargos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZ29zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Cargos/Index.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Cargos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyZ29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Conta/Login.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Conta/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Conta/Register.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Conta/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Error.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Funcionarios/Create.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Funcionarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Funcionarios/Delete.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Funcionarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Funcionarios/Edit.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Funcionarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Funcionarios/Historico.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Funcionarios/Historico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXEhpc3Rvcmljby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Funcionarios/Index.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Funcionarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmFyaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Index.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Privacy.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/_ViewImports.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/_ViewStart.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Windows/Projetos/GestaoCargos/GestaoRH/GestaoRH.Web/Pages/Shared/_Layout.cshtml]
+[C:/Users/Gabriel Martins/Documents/testegestao/gestaorh/GestaoRH.Web/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ag5mo9uxu2

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj": {}
+    "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj": {}
   },
   "projects": {
-    "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj": {
+    "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj",
         "projectName": "GestaoRH.Core",
-        "projectPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj",
+        "projectPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj",
         "packagesPath": "C:\\Users\\Gabriel Martins\\.nuget\\packages\\",
-        "outputPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GestaoRH.Data
-build_property.ProjectDir = F:\Windows\Projetos\GestaoCargos\GestaoRH\GestaoRH.Data\
+build_property.ProjectDir = C:\Users\Gabriel Martins\Documents\testegestao\gestaorh\GestaoRH.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -7047,11 +7047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Data\\GestaoRH.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Data\\GestaoRH.Data.csproj",
       "projectName": "GestaoRH.Data",
-      "projectPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Data\\GestaoRH.Data.csproj",
+      "projectPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Data\\GestaoRH.Data.csproj",
       "packagesPath": "C:\\Users\\Gabriel Martins\\.nuget\\packages\\",
-      "outputPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Data\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gabriel Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7066,8 +7066,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj": {
-              "projectPath": "F:\\Windows\\Projetos\\GestaoCargos\\GestaoRH\\GestaoRH.Core\\GestaoRH.Core.csproj"
+            "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj": {
+              "projectPath": "C:\\Users\\Gabriel Martins\\Documents\\testegestao\\gestaorh\\GestaoRH.Core\\GestaoRH.Core.csproj"
             }
           }
         }
